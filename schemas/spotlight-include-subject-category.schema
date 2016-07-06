@@ -1,0 +1,21 @@
+{
+  "title": "Subject Category",
+  "type": "object",
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "required": ["id", "name", "enabled"],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "enabled": {
+      "type": "boolean"
+    }
+  }
+
+}

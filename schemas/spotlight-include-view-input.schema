@@ -1,0 +1,22 @@
+{
+  "title": "View Input",
+  "type": "object",
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "required": ["viewId", "viewName", "viewDescription"],
+  "properties": {
+    "viewId": {
+      "type": "string"
+    },
+    "viewName": {
+      "type": "string"
+    },
+    "viewDescription": {
+      "type": "string"
+    },
+    "viewParameters": {
+      "type": "object",
+      "$ref": "http://api.spotlight.com/schemas/parameter-values"
+    }
+  }
+
+}

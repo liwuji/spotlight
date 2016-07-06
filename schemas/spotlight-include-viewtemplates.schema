@@ -1,0 +1,25 @@
+{
+  "title": "ViewTemplates",
+  "type": "array",
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "items": {
+    "type": "object",
+    "properties": {
+      "templateName": {
+        "type": "string"
+      },
+      "templateDescription": {
+        "type": "string"
+      },
+      "views": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minItems": 1,
+          "uniqueItems": true
+        }
+      }
+    }
+  }
+
+}

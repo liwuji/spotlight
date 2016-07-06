@@ -1,0 +1,28 @@
+{
+  "title": "Subject View",
+  "type": "object",
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "required": ["name", "description", "viewId", "subjectId"],
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "viewId": {
+      "type": "string"
+    },
+    "subjectId": {
+      "type": "string"
+    },
+    "subjectViewId": {
+      "type": "string"
+    },
+    "viewParameters": {
+      "type": "object",
+      "$ref": "http://api.spotlight.com/schemas/parameter-values"
+    }
+  }
+
+}

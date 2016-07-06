@@ -1,0 +1,21 @@
+{
+  "title": "Views",
+  "type": "array",
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "items": {
+    "type": "object",
+    "title": "View",
+    "properties": {
+      "viewId": {
+        "type": "string"
+      },
+      "viewName": {
+        "type": "string"
+      },
+      "viewDescription": {
+        "type": "string"
+      }
+    }
+  }
+
+}

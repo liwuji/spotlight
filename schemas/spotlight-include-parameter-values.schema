@@ -1,0 +1,10 @@
+{
+  "title": "Parameter Values",
+  "type": "array",
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "items": {
+    "type": "object",
+    "$ref": "http://api.spotlight.com/schemas/parameter-value"
+  }
+
+}

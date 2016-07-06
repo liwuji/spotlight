@@ -1,0 +1,27 @@
+{
+  "title": "Parameter Definition",
+  "type": "object",
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "key": {
+      "type": "string"
+    },
+    "value": {
+      "type": "string"
+    },
+    "validator": {
+      "type": "string"
+    },
+    "sample": {
+      "type": "string"
+    }
+
+  }
+
+}

@@ -1,0 +1,23 @@
+{
+  "title": "View Template",
+  "type": "object",
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "required": ["templateName", "templateDescription", "views"],
+  "properties": {
+    "templateName": {
+      "type": "string"
+    },
+    "templateDescription": {
+      "type": "string"
+    },
+    "views": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minItems": 1,
+        "uniqueItems": true
+      }
+    }
+  }
+
+}

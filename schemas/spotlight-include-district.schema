@@ -1,0 +1,42 @@
+{
+  "title": "District",
+  "type": "object",
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "required": ["id", "name", "enabled"],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "code": {
+      "type": "string"
+    },
+    "level": {
+      "type": "integer"
+    },
+    "name": {
+      "type": "string"
+    },
+    "alias": {
+      "type": "string"
+    },
+    "filterRule": {
+      "type": "string"
+    },
+    "parentCode": {
+      "type": "string"
+    },
+    "geoPoint": {
+      "type": "string"
+    },
+    "geoPointCity": {
+      "type": "string"
+    },
+    "geoPointProvincial": {
+      "type": "string"
+    },
+    "enabled": {
+      "type": "boolean"
+    }
+  }
+
+}

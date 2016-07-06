@@ -1,0 +1,25 @@
+{
+  "title": "Subject",
+  "type": "object",
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "required": ["name", "subjectParameters"],
+  "properties": {
+    "subjectId": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "parentSubjectId": {
+      "type": "string"
+    },
+    "subjectParameters": {
+      "type": "object",
+      "$ref": "http://api.spotlight.com/schemas/parameter-values"
+    }
+  }
+
+}
